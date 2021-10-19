@@ -86,3 +86,14 @@ header {
     width: 80vw;
     padding: 5px;
 }
+
+#creation {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#creation > iframe {
+    max-width: 560px;
+    width: 100%;
+}
