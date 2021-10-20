@@ -172,4 +172,18 @@ nav > ul {
 .product {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.product > .level {
+    background-color: thistle;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    
 }
