@@ -130,6 +130,10 @@ nav > ul {
     padding: 0 20px;
 }
 
+.grid {
+    display: flex;
+}
+
 #design {
     margin-top: 30px;
 }
@@ -185,5 +189,5 @@ nav > ul {
     color: black;
     padding: 15px 0;
     width: 100%;
-    
+
 }
