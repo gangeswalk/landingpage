@@ -26,6 +26,10 @@ header {
 
 }
 
+/* header {
+    flex-wrap:wrap
+} */
+
 #page-wrapper {
     position: relative;
 }
@@ -33,6 +37,11 @@ header {
 li {
     list-style: none;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 .logo {
     width: 60vw;
@@ -70,6 +79,9 @@ nav > ul {
 #hero {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     height: 200px;
     margin-top: 50px;
 }
@@ -83,6 +95,12 @@ nav > ul {
     max-width: 275px;
     width: 100%;
     padding: 5px;
+}
+
+.btn {
+    font-size1rem;
+    : 3px orange;
+    border-radius: 3px;
 }
 
 #design {
@@ -106,18 +124,18 @@ nav > ul {
     padding: 5px;
 }
 
-#creation {
+#styles {
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
-#creation > iframe {
+#styles > iframe {
     max-width: 560px;
     width: 100%;
 }
 
-#pricing {
+#price {
     display:flex;
     flex-direction: row;
 }
