@@ -54,7 +54,15 @@ header {
     width: 60vw;
 }
 
+@media (max-width: 650px) {
+.logo {
+        margin-top: 15px;
+        width: 100%;
+        position: relative;
+      }
+    
 
+}
 
 
 
