@@ -95,12 +95,30 @@ nav > ul {
     max-width: 275px;
     width: 100%;
     padding: 5px;
+    font-size: 1rem;
+}
+
+#hero input[type='submit']{
+    max-width: 150;
+    width: 100;
+    height: 35px;
+    margin: 15px 0;
+    border: 0;
+    background-color:thistle;
+
 }
 
 .btn {
-    font-size1rem;
-    : 3px orange;
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 3px orange;
     border-radius: 3px;
+    background: turquoise;
+    cursor: pointer;
+    padding: 0 20px;
 }
 
 #design {
