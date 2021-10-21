@@ -191,6 +191,15 @@ nav {
     padding: 5px;
 }
 
+#train_title {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0px -40px auto;
+    }
+
+
+
 #delivery {
     margin-top: 50px;
     display: flex;
