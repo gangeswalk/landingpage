@@ -19,7 +19,7 @@ li {
 }
 
 a {
-    color: #000;
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -107,6 +107,7 @@ nav > ul {
 
 nav {
     font-weight: 400;
+    font-size: 30px;
 }
 
 
