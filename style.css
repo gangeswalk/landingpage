@@ -35,7 +35,9 @@ h1 {
 
 header {
     position: fixed;
-    top: 0;
+    top: 10px;
+    right: 10px;
+    left: 10px;
     min-height: 75px;
     padding: 0px 20px 20px 20px;
     display: flex;
