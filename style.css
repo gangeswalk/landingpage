@@ -43,7 +43,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:thistle;
+    background-color:blue;
 }
 
 @media (max-width: 600px) {
@@ -141,7 +141,6 @@ nav {
     margin: 15px 0;
     border: 0;
     background-color:thistle;
-
 }
 
 
@@ -161,9 +160,10 @@ nav {
     text-align: center;
     border: 3px orange;
     border-radius: 3px;
-    background: thistle;
+    background: blue;
     cursor: pointer;
     padding: 0 20px;
+    color: whitesmoke;
 }
 
 .grid {
@@ -200,13 +200,13 @@ nav {
 
 
 
-#delivery {
+#train {
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
-#delivery > iframe {
+#train > iframe {
     max-width: 560px;
     width: 100%;
 }
@@ -230,8 +230,8 @@ nav {
 }
 
 .product > .level {
-    background-color: thistle;
-    color: black;
+    background-color: blue;
+    color: whitesmoke;
     padding: 15px 0;
     width: 100%;
     text-transform: uppercase;
@@ -247,7 +247,7 @@ nav {
 
 footer {
     margin-top: 30px;
-    background-color: thistle;
+    background-color: blue;
     padding: 20px;
   }
   
@@ -265,6 +265,6 @@ footer {
     display: flex;
     justify-content: flex-end;
     font-size: 0.9em;
-    color: #444;
+    color: whitesmoke;
   }
   
